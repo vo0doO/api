@@ -21,11 +21,11 @@ HeadHunter API — это бесплатный инструментарий дл
 
 * <img src="http://hhru.github.io/api/badges/temp_anon.png" alt="anonymous" /> –
   актуально для анонимных запросов, не требует авторизации.
-* <img src="http://hhru.github.io/api/badges/temp_client.png" alt="client" /> – актуально для запросов от имени приложения, требует авторизации.
+* <img src="http://hhru.github.io/api/badges/temp_client.png" alt="client" /> – актуально для запросов от имени приложения, требует [авторизации приложения](docs/authorization.md#get-client-auth)
 * <img src="http://hhru.github.io/api/badges/temp_app.png" alt="applicant" /> –
-  актуально для запросов от имени соискателя, требует авторизации пользователя.
+  актуально для запросов от имени соискателя, требует [авторизации пользователя](docs/authorization.md#get-auth).
 * <img src="http://hhru.github.io/api/badges/temp_emp.png" alt="employer" /> –
-  актуально для запросов от имени работодателя, требует авторизации пользователя.
+  актуально для запросов от имени работодателя, требует [авторизации пользователя](docs/authorization.md#get-auth).
 
 
 <a name="general"></a>

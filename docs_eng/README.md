@@ -21,11 +21,11 @@ Article labels:
 
 * <img src="http://hhru.github.io/api/badges/anon.png" alt="anonymous" /> –
   for anonymous requests, authrization isn't required.
-* <img src="http://hhru.github.io/api/badges/client.png" alt="client" /> - for application requests, authrization is required.
+* <img src="http://hhru.github.io/api/badges/client.png" alt="client" /> - for application requests, [application authrization](authorization.md#get-client-auth) is required.
 * <img src="http://hhru.github.io/api/badges/app.png" alt="applicant" /> –
-  for applicant requests, user authrization is required.
+  for applicant requests, [user authrization](authorization.md#get-auth) is required.
 * <img src="http://hhru.github.io/api/badges/emp.png" alt="employer" /> –
-  for employer requests, user authrization is required.
+  for employer requests, [user authrization](authorization.md#get-auth) is required.
 
 
 <a name="general"></a>
