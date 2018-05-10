@@ -136,10 +136,10 @@ JSON will be returned in the response:
 
 ```json
 {
-  "access_token": "{access_token}",
-  "token_type": "bearer",
-  "expires_in": 1209600,
-  "refresh_token": "{refresh_token}"
+    "access_token": "{access_token}",
+    "token_type": "bearer",
+    "expires_in": 1209600,
+    "refresh_token": "{refresh_token}"
 }
 ```
 
@@ -184,10 +184,10 @@ first time:
 
 ```json
 {
-  "access_token": "{access_token}",
-  "token_type": "bearer",
-  "expires_in": 1209600,
-  "refresh_token": "{refresh_token}",
+    "access_token": "{access_token}",
+    "token_type": "bearer",
+    "expires_in": 1209600,
+    "refresh_token": "{refresh_token}"
 }
 ```
 
@@ -217,8 +217,8 @@ JSON will be returned in the response:
 
 ```json
 {
-  "access_token": "{access_token}",
-  "token_type": "bearer"
+    "access_token": "{access_token}",
+    "token_type": "bearer"
 }
 ```
 
