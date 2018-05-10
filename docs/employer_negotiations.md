@@ -207,7 +207,7 @@ employer_states[].name | строка | название состояния
 
 ### Ошибки
 
-* `400 Bad Request` - не передан параметр `vacancy_id`.
+* `400 Bad Request` – не передан параметр `vacancy_id`.
 * `403 Forbidden` – ошибка авторизации пользователя. 
 
 

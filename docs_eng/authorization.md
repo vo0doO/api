@@ -224,7 +224,7 @@ JSON will be returned in the response:
 
 The `access_token` has **unlimited** validity period. After repeated request, the previously obtained token is deactivated and a new one is obtained. The owner of the application can see the actual `access_token` for the application on the site [https://dev.hh.ru/admin](https://dev.hh.ru/admin).
 
-> :warning: In case of compromising the token, you need to go through the procedure for obtaining an application access token again.
+> :warning: In case of compromising the token, you need to obtain an application access token again!
 
 If the obtaining fails, then the `400 Bad Request` response returns with the body:
 

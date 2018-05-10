@@ -5,6 +5,10 @@
 * [Obtaining info about the authorized application](#application-info)
 
 
+<a name="general"></a>
+Note, you can obtain different answers depending on the access token. In the case of an application access token, the response will contain only some flags.
+
+
 <a name="user-info"></a>
 ## Obtaining info about the authorized user
 
@@ -166,8 +170,7 @@ If request contains parameters from different groups, `400 Bad Request` is retur
 <a name="info"></a>
 ## Obtaining info about the authorized application
 
-`GET /me` returns a response body similar to [obtaining info about the authorized user](#user-info), but only the flags. 
-Server returns `403 Forbidden` if authorization is failed.
+`GET /me` returns a response body similar to [obtaining info about the authorized user](#user-info), but only the flags.
 
 ```json
 {
@@ -177,3 +180,7 @@ Server returns `403 Forbidden` if authorization is failed.
     "is_application": true
 }
 ```
+
+### Errors
+
+* `403 Forbidden` – application authorization is failed.
